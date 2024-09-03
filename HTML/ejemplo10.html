@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo tag semanticos</title>
+</head>
+
+<body>
+    <h1>Ejemplo tag semanticos</h1>
+    <table width="100%" border="1">
+        <tr>
+            <td colspan="2">
+                <nav>
+                    <a href="#">Tutoriales</a>&emsp; | &emsp;
+                    <a href="#">Front end</a>&emsp; | &emsp;
+                    <a href="#">Back end</a>&emsp; | &emsp;
+                    <a href="#">Framewors</a>&emsp; | &emsp;
+                    <a href="#">Librerias</a>&emsp; | &emsp;
+                </nav>
+            </td>
+
+        </tr>
+        <tr>
+            <td width="60%">
+                <section>
+                    <header>Front End</header>
+                    <article>
+                        <h2>Front End </h2>
+                        <table width="100%">
+                            <tr>
+                                <td width="40%">
+                                    <img src="../resursos/imagenes/imagen2.png" alt="" width="100%">
+                                </td>
+                                <td width="60%">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis doloribus in, debitis odio ea labore culpa iste quia vel facere veritatis exercitationem non numquam quaerat! Beatae magnam impedit culpa?
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                    <article></article>
+                    <article></article>
+                </section>
+            </td>
+            <td width="40%">
+                <table>
+                    <h2>Datos personales</h2>
+                    <form autocomplete="on">
+                        <label for="numero_identificacion">Numero de Idetificacion</label>
+                        <input type="number" name="" id="numero_identificacion" required
+                            placeholder="Numero de identificacion"><br><br>
+                        <label for="nombres">Nombres</label>
+                        <input type="text" name="" id="nombres" size="35" readonly value="Elier Narvaez"> <br><br>
+                        <label for="salario">Salario</label>
+                        <input type="number" name="" id="salario" min="10000" max="200000"><br><br>
+                        <label for="browser">Choose your browser from the list:</label>
+                        <input list="browsers" name="browser" id="browser">
+
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist><br><br>
+                        <label for="numero_celular">Numero Celular </label>
+                        <input type="text" name="" id="numero_celular" pattern="^\+\d{2}-\d{8,10}"><br><br>
+                        <label for="numero_telefono">Telefono </label>
+                        <input type="text" name="" id="numero_telefono" pattern="\d{3}\s\d{3}\s\d{4}"><br><br>
+
+                        <input type="submit" value="Enviar al servidor">
+
+
+                    </form>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <footer>
+                    <figure>
+                        <img src="../resursos/imagenes/imagen2.png" alt="" width="50%">
+                        <figcaption>Descripcion Imagen</figcaption>
+                    </figure>
+                </footer>
+            </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>
